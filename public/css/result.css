@@ -1,0 +1,18 @@
+.result {
+  background-color: var(--background-result);
+  padding: 0% 5%;
+  max-width: 30%;
+}
+
+.result__title {
+  color: var(--text-color-blue);
+  font-weight: 700;
+  font-style: italic;
+  border-bottom: 1px solid #5d9cec;
+}
+
+.result__text {
+  color: var(--text-color-blue-light);
+  font-style: italic;
+  font-size: 16px;
+}

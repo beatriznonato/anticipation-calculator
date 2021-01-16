@@ -4,11 +4,50 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/simulation.css">
+    <link rel="stylesheet" href="css/result.css">
     <title>Hash Challenge</title>
   </head>
   <body>
-    <div id="root"></div>
+    <main class="main_container">
+      <section class="section_container">
+        <header class="simulation__header">
+            <h1 class="simulation__title">Simule sua Antecipação</h1>
+        </header>
+        <div class="form_container">
+          <form action="" class="simulation__form">
+              <div class="simulation__form-inputs">
+                <label for="valueSale" class="simulation__subtitle">Informe o valor da venda
+                  <strong>*</strong>
+                </label>
+                <input type="number" class="simulation__inputs">
+              </div>
+              <div class="simulation__form-inputs">
+                <label for="valueSale" class="simulation__subtitle">Em quantas parcelas
+                  <strong>*</strong>
+                </label>
+                <input type="number" class="simulation__inputs">
+                <small class="simulation__small-description">Máximo de 12 parcelas</small>
+              </div>
+              <div class="simulation__form-inputs">
+                  <label for="valueSale" class="simulation__subtitle">Informe o percentual de MDR
+                      <strong>*</strong></label>
+                  <input type="number" class="simulation__inputs">
+              </div>
+          </form>
+          <div class="result">
+            <h2 class="result__title">Você receberá:</h2>
+            <p class="result__text">Amanhã: <strong class="result__value">R$ 0,00</strong></p>
+            <p class="result__text">Em 15 dias: <strong class="result__value">R$ 0,00</strong></p>
+            <p class="result__text">Em 30 dias: <strong class="result__value">R$ 0,00</strong></p>
+            <p class="result__text">Em 90 dias: <strong class="result__value">R$ 0,00</strong></p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
