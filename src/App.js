@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './global.css'
+import Calculator from './components/Calculator/Calculator'
+
+
 function App() {
   return (
-    <div>
-      <h1> Hello World</h1>
-    </div>
+   <Calculator />
   );
 }
 

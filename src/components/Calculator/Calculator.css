@@ -3,6 +3,14 @@
   flex-wrap: nowrap;
   border: 1px solid var(--border-color-inputs);
 }
+
+.calculator__title {
+  margin-top: 12%;
+  padding: 5%;
+  font-size: 22px;
+  color: var(--title-color);
+}
+
 .column {
   padding: 0% 10% 0%;
   width: 25vw;
