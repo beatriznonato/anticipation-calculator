@@ -13,7 +13,7 @@ body {
   --border-color-inputs: #dde6e9;
   --title-color: #656565;
   --small-title-color: #cecece;
-  --background-result: rgba(209, 220, 227, 0.18);
+  --background-2: rgba(209, 220, 227, 0.18);
 }
 
 body {
@@ -22,5 +22,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
+  background-color: var(--background-2);
 }

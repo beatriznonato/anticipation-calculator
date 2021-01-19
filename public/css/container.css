@@ -1,6 +1,14 @@
-.section_container {
-  border: 1px solid var(--card-color-antecipation);
-  border-radius: 4px;
-  height: 90vh;
-  width: 90vw;
+.main_container {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid var(--border-color-inputs);
+}
+.column {
+  padding: 2% 13% 0%;
+  max-width: 65%;
+  background: var(--white);
+}
+
+.column2 {
+  width: 35%;
 }
