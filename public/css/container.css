@@ -4,11 +4,11 @@
   border: 1px solid var(--border-color-inputs);
 }
 .column {
-  padding: 2% 13% 0%;
-  max-width: 65%;
+  padding: 0% 10% 0%;
+  width: 25vw;
   background: var(--white);
 }
 
 .column2 {
-  width: 35%;
+  width: 20vw;
 }
