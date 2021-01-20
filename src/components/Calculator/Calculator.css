@@ -11,6 +11,19 @@
   color: var(--title-color);
 }
 
+.calculator__subtitle {
+  font-style: italic;
+  border-bottom: 1px solid #5d9cec;
+  color: var(--text-color-blue);
+}
+.calculator__result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 23% 0%;
+  background-color: var(--background-2);
+}
+
 .column {
   padding: 0% 10% 0%;
   width: 25vw;

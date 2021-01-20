@@ -18,7 +18,13 @@ function Calculator() {
         <Input />
       </div>
       <div className="column2">
-        <Result />
+        <div className="calculator__result">
+        <h2 className="calculator__subtitle">Você receberá:</h2>
+          <Result />
+          <Result />
+          <Result />
+          <Result />
+        </div>
       </div>
     </div>
   );
