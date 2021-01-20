@@ -14,6 +14,8 @@ function Calculator() {
           <h1 className="calculator__title">Simule sua Antecipação</h1>
         </header>
         <Input />
+        <Input />
+        <Input />
       </div>
       <div className="column2">
         <Result />
