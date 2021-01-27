@@ -10,7 +10,7 @@ const Result = ({ days, value }) => (
 )
 
 Result.propTypes = {
-  days: PropTypes.string.isRequired,
+  days: PropTypes.string,
   value: PropTypes.number.isRequired,
 };
 

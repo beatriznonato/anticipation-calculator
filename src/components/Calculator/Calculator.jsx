@@ -13,7 +13,7 @@ const Calculator = () => (
       </header>
       <form action="" className="input__form">
         <Input label="Informe o valor da venda"/>
-        <Input label="Em quantas parcelas"/>
+        <Input label="Em quantas parcelas" hint="Máximo de 12 parcelas"/>
         <Input label="Informe o percentual de MDR"/>
       </form>
     </div>

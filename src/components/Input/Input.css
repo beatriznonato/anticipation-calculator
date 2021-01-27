@@ -19,7 +19,7 @@
   outline-color: var(--border-color-outline);
 }
 
-.input__small-description {
+.input__hint-description {
   font-weight: 700;
   font-size: 11px;
   font-style: normal;
