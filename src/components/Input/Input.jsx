@@ -6,10 +6,10 @@ import './Input.css'
 const Input = ({ label }) => (
   <div className="input__form-inputs">
     <label htmlFor="valueSale" className="input__subtitle">
-      <strong>*</strong>
       {label}
+      <strong>*</strong>
     </label>
-    <input type="number" className="input__inputs" />
+    <input className="input__inputs" />
   </div>
 )
 
