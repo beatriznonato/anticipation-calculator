@@ -39,7 +39,7 @@ const Calculator = () => {
       </div>
       <div className="column2">
         <div className="calculator__result">
-          <h2 className="calculator__subtitle">Você receberá:</h2>
+          <h2 className="calculator__subtitle">VOCÊ RECEBERÁ:</h2>
           <Result days="Amanhã" value={reward[1]}/>
           <Result days="Em 15 dias" value={reward[15]}/>
           <Result days="Em 30 dias" value={reward[30]}/>

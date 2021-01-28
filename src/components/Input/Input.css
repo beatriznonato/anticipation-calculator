@@ -15,6 +15,7 @@
   height: 37px;
   width: 240px;
   border-radius: 4px;
+  padding: 0px 5px 0px 12px;
   border: 1px solid var(--border-color-inputs);
   outline-color: var(--border-color-outline);
 }
