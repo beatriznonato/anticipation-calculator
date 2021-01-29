@@ -5,7 +5,7 @@ import './Result.css'
 
 const Result = ({ days, value }) => (
   <div className="result">
-    <p className="result__text">{days}: <strong className="result__value">R$ {value}</strong></p>
+    <p className="result__text">{days}: <strong className="result__value">{value}</strong></p>
   </div>
 )
 
