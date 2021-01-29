@@ -13,6 +13,10 @@ const Calculator = () => {
   const [mdr, setMdr] = useState('')
   const [reward, setReward] = useState([])
 
+  const format = (value) => {
+    value.toLocaleString("pt-BR", {style: 'currency', currency: 'BRL' });
+  }
+
   useEffect(async () => {
     if (amount && installments && mdr) {
       const data = await post({
@@ -40,7 +44,7 @@ const Calculator = () => {
       <div className="column2">
         <div className="calculator__result">
           <h2 className="calculator__subtitle">VOCÊ RECEBERÁ:</h2>
-          <Result days="Amanhã" value={reward[1]}/>
+          <Result days="Amanhã" value={format(reward[1])}/>
           <Result days="Em 15 dias" value={reward[15]}/>
           <Result days="Em 30 dias" value={reward[30]}/>
           <Result days="Em 90 dias" value={reward[90]}/>
