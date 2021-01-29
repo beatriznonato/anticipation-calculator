@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Input from '../Input/Input'
 import Result from '../Result/Result'
 import post from '../../services/api'
-import format from '../../services/format'
+import format from '../../format'
 import './Calculator.css'
 
 const Calculator = () => {
