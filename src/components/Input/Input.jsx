@@ -9,7 +9,7 @@ const Input = ({ label, hint, value, onChange }) => (
       {label}
       <strong>*</strong>
     </label>
-    <input className="input__inputs" value={value} onChange={onChange} />
+    <input type="number" className="input__inputs" value={value} onChange={onChange} />
     <span className="input__hint-description">{hint}</span>
   </div>
 )
