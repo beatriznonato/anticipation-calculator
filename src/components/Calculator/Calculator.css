@@ -25,12 +25,12 @@
   background-color: var(--background-2);
 }
 
-.column {
+.calculator__column {
   padding: 0% 10% 0%;
   width: 25vw;
   background: var(--white);
 }
 
-.column2 {
+.calculator__column2 {
   width: 20vw;
 }

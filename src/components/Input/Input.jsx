@@ -5,11 +5,11 @@ import './Input.css'
 
 const Input = ({ label, hint, value, onChange }) => (
   <div className="input__form-inputs">
-    <label htmlFor="valueSale" className="input__subtitle">
+    <label htmlFor="valueSale" className="label__description">
       {label}
       <strong>*</strong>
     </label>
-    <input type="number" className="input__inputs" value={value} onChange={onChange} />
+    <input type="number" className="input__box" value={value} onChange={onChange} />
     <span className="input__hint-description">{hint}</span>
   </div>
 )

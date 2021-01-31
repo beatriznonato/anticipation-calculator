@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import './Result.css'
 
 const Result = ({ days, value }) => (
-  <div className="result">
-    <p className="result__text">{days}: <strong className="result__value">{value}</strong></p>
+  <div>
+    <p className="result__p">{days}: <strong >{value}</strong></p>
   </div>
 )
 

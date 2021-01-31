@@ -1,4 +1,4 @@
-.input__subtitle {
+.label__description {
   font-size: 14px;
   color: var(--title-color);
 }
@@ -11,7 +11,7 @@
   padding: 3%;
 }
 
-.input__inputs {
+.input__box {
   height: 37px;
   width: 240px;
   border-radius: 4px;

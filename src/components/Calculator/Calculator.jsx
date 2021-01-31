@@ -29,7 +29,7 @@ const Calculator = () => {
 
   return (
     <div className="main_container">
-      <div className="column">
+      <div className="calculator__column">
         <header>
           <h1 className="calculator__title">Simule sua Antecipação</h1>
         </header>
@@ -52,7 +52,7 @@ const Calculator = () => {
           />
         </form>
       </div>
-      <div className="column2">
+      <div className="calculator__column2">
         <div className="calculator__result">
           <h2 className="calculator__subtitle">VOCÊ RECEBERÁ:</h2>
           <Result days="Amanhã" value={reward[1]} />
