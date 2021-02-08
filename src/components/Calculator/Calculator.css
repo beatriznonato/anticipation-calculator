@@ -1,4 +1,4 @@
-.main_container {
+.calculator__container {
   display: flex;
   flex-wrap: nowrap;
   border: 1px solid var(--border-color-inputs);

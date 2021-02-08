@@ -27,8 +27,9 @@ const Calculator = () => {
     }
   }, [amount, installments, mdr])
 
+
   return (
-    <div className="main_container">
+    <div className="calculator__container">
       <div className="calculator__column">
         <header>
           <h1 className="calculator__title">Simule sua Antecipação</h1>
