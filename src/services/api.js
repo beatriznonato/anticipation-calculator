@@ -12,7 +12,7 @@ export default async function post(data) {
     if(response.status === 408){
       return {
         error: true,
-        errorMessage: 'Timeout'
+        errorMessage: 'Timeout Request'
       }
     } if(response.status === 500) {
       return {
