@@ -70,7 +70,8 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "4.0.0",
     "init": "0.1.2",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "react-toastify": "^7.0.3"
   },
   "config": {
     "commitizen": {

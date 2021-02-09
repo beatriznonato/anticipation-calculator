@@ -13,17 +13,25 @@ const Calculator = () => {
 
   useEffect(async () => {
     if (amount && installments && mdr) {
-      const data = await post({
+      const response = await post({
         amount,
         installments,
         mdr,
       })
 
-      Object.keys(data).forEach(key => {
-        data[key] = format(data[key])
+      if(response.error === true){
+        // eslint-disable-next-line no-alert
+        alert(response.errorMessage)
+        return;
+      }
+
+      const dataKey = {}
+
+      Object.keys(response.data).forEach(key => {
+        dataKey[key] = format(response.data[key])
       })
 
-      setReward(data)
+      setReward(dataKey)
     }
   }, [amount, installments, mdr])
 
