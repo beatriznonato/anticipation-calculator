@@ -4,7 +4,7 @@
 
 <p>
   Today Hash customers need to know how much it costs to anticipate a transaction, and for that, it was necessary to develop an anticipation calculator so that
-  they are able to know what amounts they will receive if they choose to anticipate receipt.:moneybag:
+  they are able to know what amounts they will receive if they choose to anticipate receipt. :moneybag:
 </p>
 
 ## Portuguese original challenge paper complete
